@@ -1,0 +1,16 @@
+---
+layout: null
+permalink: /blog/index.json
+---
+
+[
+{% assign posts = site.blog | sort: "date" %}
+{% for post in posts %}
+  {
+    "title": {{ post.title | jsonify }},
+    "date": {{ post.date | date: "%Y-%m-%d" | jsonify }},
+    "filename": {{ post.url | uri_escape | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]
+

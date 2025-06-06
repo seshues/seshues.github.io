@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>-</title>
+  <link href="https://cdn.jsdelivr.net/npm/@fontsource/iosevka-term@4.5.11/index.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .container {
+      max-width: 1200px;
+      margin: auto;
+    }
+    .date, .rating, .finished {
+      width: 6%;
+    }
+    .cover {
+      width: 10%;
+    }
+    .comment {
+      width: 40%;
+      word-break: break-word;
+    }
+    .games-table {
+      width: 100%;
+      border-collapse: collapse;
+	  table-layout: fixed;
+    }
+    .games-table th, .games-table td {
+      border: 1px solid #444;
+      padding: 0.5em;
+      text-align: center;
+      word-wrap: break-word;
+    }
+    .games-table td.comment {
+      text-align: left;
+    }
+    .games-table td .image-tooltip-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+
+    .rating.high { color: #6f6; }
+    .rating.medium { color: #ff6; }
+    .rating.low { color: #f66; }
+
+    .image-tooltip-wrapper {
+      position: relative;
+      display: block;
+      width: 100%;
+      overflow: hidden;
+    }
+    .image-tooltip-wrapper img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: opacity 0.3s ease;
+      border-radius: 4px;
+    }
+    .image-tooltip-wrapper .tooltip-title {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      font-size: 0.75rem;
+      padding: 0.25em;
+      text-align: center;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+    .image-tooltip-wrapper:hover img {
+      opacity: 0.3;
+    }
+    .image-tooltip-wrapper:hover .tooltip-title {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <table class="games-table">
+      <thead>
+        <tr>
+          <th class="date">date</th>
+          <th class="cover">game</th>
+          <th class="rating">rating</th>
+          <th class="comment">comments</th>
+          <th class="finished">finished</th>
+        </tr>
+      </thead>
+      <tbody id="games"></tbody>
+    </table>
+    <a href="index.html">home</a>
+	<div id="pagination" style="margin-top: 1em; text-align: center;"></div>
+  </div>
+
+  <script>
+  const GAMES_PER_PAGE = 10;
+  let currentPage = 1;
+  let games = [];
+
+	function renderPage(page) {
+	  const tbody = document.getElementById('games');
+
+	  tbody.style.opacity = '0';
+
+	  setTimeout(() => {
+		tbody.innerHTML = '';
+
+		const start = (page - 1) * GAMES_PER_PAGE;
+		const end = start + GAMES_PER_PAGE;
+		const pageGames = games.slice(start, end);
+
+		pageGames.forEach(game => {
+		  const row = document.createElement('tr');
+
+		  const imageCell = `<td>
+			<div class="image-tooltip-wrapper">
+			  <img src="${game.image}" alt="${game.title} cover" onerror="this.onerror=null;this.remove();">
+			  <span class="tooltip-title">${game.title}</span>
+			</div>
+		  </td>`;
+
+		  const ratingCell = (typeof game.rating === 'number')
+			? `<td class="rating ${game.rating >= 8 ? 'high' : game.rating >= 5 ? 'medium' : 'low'}">${game.rating}/10</td>`
+			: `<td></td>`;
+
+		  row.innerHTML = `
+			<td>${game.date}</td>
+			${imageCell}
+			${ratingCell}
+			<td class="comment">${game.comments.join('<br>')}</td>
+			<td><em>${game.finished}</em></td>
+		  `;
+
+		  tbody.appendChild(row);
+		});
+
+		renderPaginationControls(page);
+
+		tbody.style.opacity = '1';
+	  }, 300);
+	}
+
+  function renderPaginationControls(page) {
+    const pagination = document.getElementById('pagination');
+    pagination.innerHTML = '';
+
+    const totalPages = Math.ceil(games.length / GAMES_PER_PAGE);
+    if (totalPages <= 1) return;
+
+    const prev = document.createElement('button');
+    prev.textContent = 'Previous';
+    prev.disabled = page === 1;
+    prev.onclick = () => {
+      if (currentPage > 1) {
+        currentPage--;
+        renderPage(currentPage);
+      }
+    };
+    pagination.appendChild(prev);
+
+    for (let i = 1; i <= totalPages; i++) {
+      const btn = document.createElement('button');
+      btn.textContent = i;
+      btn.disabled = i === page;
+      btn.onclick = () => {
+        currentPage = i;
+        renderPage(currentPage);
+      };
+      pagination.appendChild(btn);
+    }
+
+    const next = document.createElement('button');
+    next.textContent = 'Next';
+    next.disabled = page === totalPages;
+    next.onclick = () => {
+      if (currentPage < totalPages) {
+        currentPage++;
+        renderPage(currentPage);
+      }
+    };
+    pagination.appendChild(next);
+  }
+
+	fetch('games.json')
+	  .then(res => {
+		if (!res.ok) throw new Error('failed to load games.json');
+		return res.json();
+	  })
+	  .then(gamesData => {
+		games = gamesData.sort((a, b) => new Date(b.date) - new Date(a.date));
+		renderPage(1);
+	  })
+	  .catch(err => {
+		document.getElementById('games').innerHTML = '<tr><td colspan="6">error loading games list.</td></tr>';
+		console.error(err);
+	  });
+</script>
+</body>
+</html>

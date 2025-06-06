@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title }}</title>
+  <link href="https://cdn.jsdelivr.net/npm/@fontsource/iosevka-term@4.5.11/index.css" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ '../style.css' | relative_url }}">
+</head>
+<body>
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    <p><em>{{ page.date | date: "%Y-%m-%d" }}</em></p>
+    <article>
+      {{ content }}
+    </article>
+    <a href="{{ '/blog.html' | relative_url }}">blog</a>
+    <a href="{{ '/' | relative_url }}" style="margin-left: 1em;">home</a>
+  </div>
+</body>
+</html>

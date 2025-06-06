@@ -1,0 +1,25 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>-</title>
+  <link href="https://cdn.jsdelivr.net/npm/@fontsource/iosevka-term@4.5.11/index.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1></h1>
+    <div id="posts">
+      {% assign posts = site.blog | sort: "date" %}
+      {% for post in posts %}
+        <a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} — {{ post.title }}</a>
+      {% endfor %}
+    </div>
+    <a href="index.html">home</a>
+  </div>
+</body>
+</html>
