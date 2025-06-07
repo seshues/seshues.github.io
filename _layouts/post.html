@@ -16,13 +16,12 @@
       <p><em>{{ page.date | date: "%Y-%m-%d" }}</em></p>
       <article class="post-content">{{ content }}</article>
       <div class="top-left-links">
-        <a href="{{ '/blog.html' | relative_url }}" class="blog-link">blog</a>
         <a
           href="{{ '/' | relative_url }}"
-          style="margin-left: 1em"
-          class="home1-link"
+          class="home-link"
           >home</a
         >
+        <a href="{{ '/blog.html' | relative_url }}" class="home-link">blog</a>
       </div>
     </div>
     <script>
