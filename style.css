@@ -2,7 +2,7 @@
   --bg: #111;
   --fg: #eee;
   --accent: #66f;
-  --font: 'Iosevka Term', monospace;
+  --font: "Iosevka Term", monospace;
 }
 
 * {
@@ -106,7 +106,9 @@ button {
   font-family: var(--font);
   cursor: pointer;
   border-radius: 4px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 button:hover:not(:disabled) {
@@ -152,9 +154,11 @@ button:disabled {
 
 .social-icons {
   position: absolute;
-  top: 20px;
+  bottom: 20px;
   right: 20px;
   z-index: 10;
+  flex-wrap: wrap;
+  max-width: 300px;
 }
 
 .social-icons a {
@@ -169,3 +173,17 @@ button:disabled {
   color: #0073e6;
 }
 
+.home-link {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+}
+
+.top-left-links {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  display: flex;
+  gap: 1rem;
+  z-index: 1000;
+}

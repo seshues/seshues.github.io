@@ -20,33 +20,42 @@ layout: null
         <a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} — {{ post.title }}</a>
       {% endfor %}
     </div>
-    <a href="index.html">home</a>
+    <a href="index.html" class="home-link">home</a>
   </div>
-  <script>
-    document.body.classList.add('fade-out');
-    window.addEventListener('DOMContentLoaded', () => {
-      requestAnimationFrame(() => {
-        document.body.classList.remove('fade-out');
-        document.body.classList.add('fade-in');
-      });
-    });
+    <script>
+  document.body.classList.add('fade-out');
 
-    document.querySelectorAll('a[href]').forEach(link => {
-      const url = new URL(link.href, location.href);
-      if (url.origin === location.origin) {
-        link.addEventListener('click', (e) => {
-          if (url.pathname !== location.pathname) {
-            e.preventDefault();
-            document.body.classList.remove('fade-in');
-            document.body.classList.add('fade-out');
-            setTimeout(() => {
-              location.href = link.href;
-            }, 300);
-          }
-        });
-      }
+  function fadeInBody() {
+    requestAnimationFrame(() => {
+      document.body.classList.remove('fade-out');
+      document.body.classList.add('fade-in');
     });
-  </script>
+  }
+
+  window.addEventListener('DOMContentLoaded', fadeInBody);
+
+  window.addEventListener('pageshow', (event) => {
+    if (event.persisted) {
+      fadeInBody();
+    }
+  });
+
+  document.querySelectorAll('a[href]').forEach(link => {
+    const url = new URL(link.href, location.href);
+    if (url.origin === location.origin) {
+      link.addEventListener('click', (e) => {
+        if (url.pathname !== location.pathname) {
+          e.preventDefault();
+          document.body.classList.remove('fade-in');
+          document.body.classList.add('fade-out');
+          setTimeout(() => {
+            location.href = link.href;
+          }, 300);
+        }
+      });
+    }
+  });
+</script>
   {% include socials.html %}
 </body>
 </html>

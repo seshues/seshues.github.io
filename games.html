@@ -1,7 +1,8 @@
 ---
 layout: null
 ---
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -11,13 +12,16 @@ layout: null
       href="https://cdn.jsdelivr.net/npm/@fontsource/iosevka-term@4.5.11/index.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <style>
       body {
         background: #111;
         color: #eee;
-        font-family: 'Iosevka Term', monospace;
+        font-family: "Iosevka Term", monospace;
       }
 
       .container {
@@ -34,7 +38,6 @@ layout: null
 
       .cover {
         width: 10%;
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
       }
 
       .comment {
@@ -48,8 +51,9 @@ layout: null
 
       .games-table {
         width: 100%;
+        table-layout: auto;
         border-collapse: collapse;
-        table-layout: fixed;
+        overflow-x: auto;
       }
 
       .games-table th,
@@ -58,6 +62,7 @@ layout: null
         padding: 0.5em;
         text-align: center;
         word-wrap: break-word;
+        white-space: normal;
       }
 
       .games-table td.comment {
@@ -137,7 +142,9 @@ layout: null
         opacity: 0;
         visibility: hidden;
         pointer-events: none;
-        transition: opacity 0.3s ease, visibility 0.3s ease;
+        transition:
+          opacity 0.3s ease,
+          visibility 0.3s ease;
       }
 
       #info-box.visible,
@@ -212,13 +219,19 @@ layout: null
         <tbody id="games"></tbody>
       </table>
 
-      <a href="index.html">home</a>
+      <a href="index.html" class="home-link">home</a>
       <div id="pagination"></div>
 
       <div id="overlay" onclick="closeInfo()"></div>
       <div id="info-box">
-        <p>this page works as a medium for me to put out my terrible takes when it comes to games.</p>
-        <p>i'm also using this as a way to motivate myself to relearn how to enjoy (casually) playing games</p>
+        <p>
+          this page works as a medium for me to put out my terrible takes when
+          it comes to games.
+        </p>
+        <p>
+          i'm also using this as a way to motivate myself to relearn how to
+          enjoy (casually) playing games
+        </p>
         <button onclick="closeInfo()">close</button>
       </div>
     </div>
@@ -230,55 +243,62 @@ layout: null
       let showingBacklog = false;
 
       function updateColumnVisibility() {
-        const columns = ['date', 'rating', 'finished'];
-        columns.forEach(className => {
-          document.querySelectorAll(`.${className}`).forEach(el => {
-            el.classList.toggle('hidden-column', showingBacklog);
+        const columns = ["date", "rating", "finished"];
+        columns.forEach((className) => {
+          document.querySelectorAll(`.${className}`).forEach((el) => {
+            el.classList.toggle("hidden-column", showingBacklog);
           });
         });
       }
 
       function renderPage(page) {
-        const tbody = document.getElementById('games');
-        tbody.style.opacity = '0';
+        const tbody = document.getElementById("games");
+        tbody.style.opacity = "0";
 
         setTimeout(() => {
-          tbody.innerHTML = '';
+          tbody.innerHTML = "";
 
-          const filteredGames = allGames.filter(g =>
-            showingBacklog ? g.finished === 'backlog' : g.finished !== 'backlog'
+          const filteredGames = allGames.filter((g) =>
+            showingBacklog
+              ? g.finished === "backlog"
+              : g.finished !== "backlog",
           );
 
           const start = (page - 1) * GAMES_PER_PAGE;
           const end = start + GAMES_PER_PAGE;
           const pageGames = filteredGames.slice(start, end);
 
-          pageGames.forEach(game => {
-            const row = document.createElement('tr');
+          pageGames.forEach((game) => {
+            const row = document.createElement("tr");
 
             const imageCell = `
               <td class="cover">
                 <div class="image-tooltip-wrapper">
-                  ${game.url ? `
+                  ${
+                    game.url
+                      ? `
                     <a href="${game.url}" target="_blank" rel="noopener noreferrer">
                       <img src="${game.image}" alt="${game.title} cover" onerror="this.onerror=null;this.remove();">
-                    </a>` : `
+                    </a>`
+                      : `
                     <img src="${game.image}" alt="${game.title} cover" onerror="this.onerror=null;this.remove();">
-                  `}
+                  `
+                  }
                   <span class="tooltip-title">${game.title}</span>
                 </div>
               </td>
             `;
 
-            const ratingCell = typeof game.rating === 'number'
-              ? `<td class="rating ${game.rating >= 8 ? 'high' : game.rating >= 5 ? 'medium' : 'low'}">${game.rating}/10</td>`
-              : `<td class="rating"></td>`;
+            const ratingCell =
+              typeof game.rating === "number"
+                ? `<td class="rating ${game.rating >= 8 ? "high" : game.rating >= 5 ? "medium" : "low"}">${game.rating}/10</td>`
+                : `<td class="rating"></td>`;
 
             row.innerHTML = `
               <td class="date">${game.date}</td>
               ${imageCell}
               ${ratingCell}
-              <td class="comment">${game.comments.join('<br>')}</td>
+              <td class="comment">${game.comments.join("<br>")}</td>
               <td class="finished"><em>${game.finished}</em></td>
             `;
 
@@ -287,19 +307,19 @@ layout: null
 
           renderPaginationControls(page, filteredGames.length);
           updateColumnVisibility();
-          tbody.style.opacity = '1';
+          tbody.style.opacity = "1";
         }, 300);
       }
 
       function renderPaginationControls(page, totalCount) {
-        const pagination = document.getElementById('pagination');
-        pagination.innerHTML = '';
+        const pagination = document.getElementById("pagination");
+        pagination.innerHTML = "";
 
         const totalPages = Math.ceil(totalCount / GAMES_PER_PAGE);
         if (totalPages <= 1) return;
 
-        const prev = document.createElement('button');
-        prev.textContent = 'Previous';
+        const prev = document.createElement("button");
+        prev.textContent = "Previous";
         prev.disabled = page === 1;
         prev.onclick = () => {
           if (currentPage > 1) {
@@ -310,7 +330,7 @@ layout: null
         pagination.appendChild(prev);
 
         for (let i = 1; i <= totalPages; i++) {
-          const btn = document.createElement('button');
+          const btn = document.createElement("button");
           btn.textContent = i;
           btn.disabled = i === page;
           btn.onclick = () => {
@@ -320,8 +340,8 @@ layout: null
           pagination.appendChild(btn);
         }
 
-        const next = document.createElement('button');
-        next.textContent = 'Next';
+        const next = document.createElement("button");
+        next.textContent = "Next";
         next.disabled = page === totalPages;
         next.onclick = () => {
           if (currentPage < totalPages) {
@@ -332,22 +352,23 @@ layout: null
         pagination.appendChild(next);
       }
 
-      document.getElementById('toggle-view').addEventListener('click', () => {
+      document.getElementById("toggle-view").addEventListener("click", () => {
         showingBacklog = !showingBacklog;
         currentPage = 1;
         renderPage(currentPage);
-        document.getElementById('toggle-view').textContent =
-          showingBacklog ? 'show previously played' : 'show backlog';
+        document.getElementById("toggle-view").textContent = showingBacklog
+          ? "show previously played"
+          : "show backlog";
       });
 
-      document.getElementById('info-button').addEventListener('click', () => {
-        document.getElementById('overlay').classList.add('visible');
-        document.getElementById('info-box').classList.add('visible');
+      document.getElementById("info-button").addEventListener("click", () => {
+        document.getElementById("overlay").classList.add("visible");
+        document.getElementById("info-box").classList.add("visible");
       });
 
       function closeInfo() {
-        document.getElementById('overlay').classList.remove('visible');
-        document.getElementById('info-box').classList.remove('visible');
+        document.getElementById("overlay").classList.remove("visible");
+        document.getElementById("info-box").classList.remove("visible");
       }
 
       function setGamesPerPage(count) {
@@ -356,38 +377,49 @@ layout: null
         renderPage(currentPage);
       }
 
-      fetch('games.json')
-        .then(res => {
-          if (!res.ok) throw new Error('failed to load games.json');
+      fetch("games.json")
+        .then((res) => {
+          if (!res.ok) throw new Error("failed to load games.json");
           return res.json();
         })
-        .then(gamesData => {
-          allGames = gamesData.sort((a, b) => new Date(b.date) - new Date(a.date));
+        .then((gamesData) => {
+          allGames = gamesData.sort(
+            (a, b) => new Date(b.date) - new Date(a.date),
+          );
           renderPage(1);
         })
-        .catch(err => {
-          document.getElementById('games').innerHTML =
+        .catch((err) => {
+          document.getElementById("games").innerHTML =
             '<tr><td colspan="6">error loading games list.</td></tr>';
           console.error(err);
         });
     </script>
     <script>
-      document.body.classList.add('fade-out');
-      window.addEventListener('DOMContentLoaded', () => {
+      document.body.classList.add("fade-out");
+
+      function fadeInBody() {
         requestAnimationFrame(() => {
-          document.body.classList.remove('fade-out');
-          document.body.classList.add('fade-in');
+          document.body.classList.remove("fade-out");
+          document.body.classList.add("fade-in");
         });
+      }
+
+      window.addEventListener("DOMContentLoaded", fadeInBody);
+
+      window.addEventListener("pageshow", (event) => {
+        if (event.persisted) {
+          fadeInBody();
+        }
       });
 
-      document.querySelectorAll('a[href]').forEach(link => {
+      document.querySelectorAll("a[href]").forEach((link) => {
         const url = new URL(link.href, location.href);
         if (url.origin === location.origin) {
-          link.addEventListener('click', (e) => {
+          link.addEventListener("click", (e) => {
             if (url.pathname !== location.pathname) {
               e.preventDefault();
-              document.body.classList.remove('fade-in');
-              document.body.classList.add('fade-out');
+              document.body.classList.remove("fade-in");
+              document.body.classList.add("fade-out");
               setTimeout(() => {
                 location.href = link.href;
               }, 300);
@@ -396,7 +428,6 @@ layout: null
         }
       });
     </script>
-  {% include socials.html %}
+    {% include socials.html %}
   </body>
 </html>
-
