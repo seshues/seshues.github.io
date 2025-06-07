@@ -17,6 +17,31 @@
     <a href="{{ '/blog.html' | relative_url }}">blog</a>
     <a href="{{ '/' | relative_url }}" style="margin-left: 1em;">home</a>
   </div>
+  <script>
+    document.body.classList.add('fade-out');
+    window.addEventListener('DOMContentLoaded', () => {
+      requestAnimationFrame(() => {
+        document.body.classList.remove('fade-out');
+        document.body.classList.add('fade-in');
+      });
+    });
+
+    document.querySelectorAll('a[href]').forEach(link => {
+      const url = new URL(link.href, location.href);
+      if (url.origin === location.origin) {
+        link.addEventListener('click', (e) => {
+          if (url.pathname !== location.pathname) {
+            e.preventDefault();
+            document.body.classList.remove('fade-in');
+            document.body.classList.add('fade-out');
+            setTimeout(() => {
+              location.href = link.href;
+            }, 300);
+          }
+        });
+      }
+    });
+  </script>
 </body>
 </html>
 

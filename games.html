@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,6 +11,7 @@
       href="https://cdn.jsdelivr.net/npm/@fontsource/iosevka-term@4.5.11/index.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="style.css" />
     <style>
       body {
@@ -30,6 +34,7 @@
 
       .cover {
         width: 10%;
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
       }
 
       .comment {
@@ -366,6 +371,32 @@
           console.error(err);
         });
     </script>
+    <script>
+      document.body.classList.add('fade-out');
+      window.addEventListener('DOMContentLoaded', () => {
+        requestAnimationFrame(() => {
+          document.body.classList.remove('fade-out');
+          document.body.classList.add('fade-in');
+        });
+      });
+
+      document.querySelectorAll('a[href]').forEach(link => {
+        const url = new URL(link.href, location.href);
+        if (url.origin === location.origin) {
+          link.addEventListener('click', (e) => {
+            if (url.pathname !== location.pathname) {
+              e.preventDefault();
+              document.body.classList.remove('fade-in');
+              document.body.classList.add('fade-out');
+              setTimeout(() => {
+                location.href = link.href;
+              }, 300);
+            }
+          });
+        }
+      });
+    </script>
+  {% include socials.html %}
   </body>
 </html>
 
