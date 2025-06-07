@@ -16,7 +16,16 @@ body {
   background: var(--bg);
   color: var(--fg);
   padding: 1.5rem;
+  padding-top: 64px;
+  padadding-bottom: 64px;
   line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
 }
 
 .container {
