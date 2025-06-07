@@ -97,7 +97,7 @@ img {
   user-select: none;
 }
 
-#pagination button {
+button {
   background: var(--bg);
   color: var(--fg);
   border: 1px solid var(--accent);
@@ -109,12 +109,12 @@ img {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-#pagination button:hover:not(:disabled) {
+button:hover:not(:disabled) {
   background: var(--accent);
   color: var(--bg);
 }
 
-#pagination button:disabled {
+button:disabled {
   opacity: 0.4;
   cursor: default;
 }
@@ -122,3 +122,21 @@ img {
 #games {
   transition: opacity 0.4s ease;
 }
+
+.post-content {
+  line-height: 1.6;
+  margin-top: 1em;
+}
+
+.post-content img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+  border-radius: 6px;
+}
+
+.post-content p {
+  margin: 1em 0;
+}
+

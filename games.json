@@ -1,11 +1,21 @@
 [
   {
+    "title": "Croc: Legend of the Gobbos (2025)",
+    "date": "ongoing or soon",
+    "image": "https://nintendoeverything.com/wp-content/uploads/Croc-Legend-of-the-Gobbos-remaster-656x369.jpg",
+    "url": "",
+    "comments": [
+      "- a childhood favorite of mine remastered. batchesting"
+    ],
+    "finished": "backlog"
+  },
+  {
     "title": "Gloomwood (2022)",
     "date": "ongoing or soon",
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1150760/7a2817598e2e5882de17299ce013638a2b35a3f9/header.jpg?t=1745805177",
     "comments": [
     ],
-    "finished": ""
+    "finished": "backlog"
   },
   {
     "title": "Cult of the Lamb (2022)",
@@ -13,7 +23,7 @@
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg?t=1747829425",
     "comments": [
     ],
-    "finished": ""
+    "finished": "backlog"
   },
   {
     "title": "Filcher (2021)",
@@ -21,7 +31,7 @@
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1355650/header.jpg?t=1744057461",
     "comments": [
     ],
-    "finished": ""
+    "finished": "backlog"
   },
   {
     "title": "Gunpoint (2013)",
@@ -29,7 +39,7 @@
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/206190/header.jpg?t=1724172937",
     "comments": [
     ],
-    "finished": ""
+    "finished": "backlog"
   },
   {
     "title": "Hollowbody (2024)",
@@ -37,7 +47,7 @@
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2123640/header.jpg?t=1726160434",
     "comments": [
     ],
-    "finished": ""
+    "finished": "backlog"
   },
   {
     "title": "Pathologic 2 (2019)",
@@ -45,7 +55,7 @@
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/505230/header.jpg?t=1739397703",
     "comments": [
     ],
-    "finished": ""
+    "finished": "backlog"
   },
   {
     "title": "Prey (2017)",
@@ -53,7 +63,7 @@
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/480490/header.jpg?t=1741275660",
     "comments": [
     ],
-    "finished": ""
+    "finished": "backlog"
   },
   {
     "title": "State of Decay 2 (2020)",
@@ -61,7 +71,7 @@
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/495420/header.jpg?t=1741378867",
     "comments": [
     ],
-    "finished": ""
+    "finished": "backlog"
   },
   {
     "title": "Zefyr: A Thief's Melody (2025)",
@@ -86,11 +96,13 @@
   {
     "title": "Cruelty Squad (2021)",
     "date": "2022",
-	"rating": 7,
+    "rating": 7,
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1388770/header.jpg?t=1740330233",
+    "url": "https://www.imdb.com/title/tt14395212/",
     "comments": [
 		"- it's been so long since i played this but i do remember enjoying it a lot",
-		"- also a really fun speedrun game when played NG"
+		"- also a really fun speedrun game when played NG",
+    "- might replay some time"
     ],
     "finished": "finished (20h)"
   }
