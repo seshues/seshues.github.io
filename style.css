@@ -21,13 +21,6 @@ body {
   line-height: 1.6;
 }
 
-@media (max-width: 600px) {
-  body {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-}
-
 .container {
   max-width: 800px;
   margin: auto;
@@ -91,12 +84,43 @@ img {
 }
 
 @media (max-width: 600px) {
+  table {
+    font-size: 0.9em;
+    table-layout: auto;
+    word-break: break-word;
+  }
+
+  td, th {
+    white-space: normal;
+    padding: 0.5em;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  td.comment {
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+
   body {
     padding: 1rem;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   .game {
     flex-direction: column;
+  }
+
+  .social-icons {
+    right: 8px;
+    bottom: 8px;
+    gap: 8px;
+  }
+
+  .home-link {
+    top: 8px;
+    left: 8px;
   }
 }
 
@@ -236,4 +260,9 @@ button:disabled {
   display: flex;
   gap: 1rem;
   z-index: 1000;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  width: 100%;
 }
