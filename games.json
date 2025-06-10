@@ -11,6 +11,7 @@
     "title": "Gloomwood (2022)",
     "date": "ongoing or soon",
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1150760/7a2817598e2e5882de17299ce013638a2b35a3f9/header.jpg?t=1745805177",
+    "url": "",
     "comments": [],
     "finished": "backlog"
   },
@@ -18,6 +19,7 @@
     "title": "Cult of the Lamb (2022)",
     "date": "ongoing or soon",
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg?t=1747829425",
+    "url": "",
     "comments": [],
     "finished": "backlog"
   },
@@ -25,6 +27,7 @@
     "title": "Filcher (2021)",
     "date": "ongoing or soon",
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1355650/header.jpg?t=1744057461",
+    "url": "",
     "comments": [],
     "finished": "backlog"
   },
@@ -32,6 +35,7 @@
     "title": "Gunpoint (2013)",
     "date": "ongoing or soon",
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/206190/header.jpg?t=1724172937",
+    "url": "",
     "comments": [],
     "finished": "backlog"
   },
@@ -39,6 +43,7 @@
     "title": "Hollowbody (2024)",
     "date": "ongoing or soon",
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2123640/header.jpg?t=1726160434",
+    "url": "",
     "comments": [],
     "finished": "backlog"
   },
@@ -46,6 +51,7 @@
     "title": "Pathologic 2 (2019)",
     "date": "ongoing or soon",
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/505230/header.jpg?t=1739397703",
+    "url": "",
     "comments": [],
     "finished": "backlog"
   },
@@ -53,46 +59,108 @@
     "title": "Prey (2017)",
     "date": "ongoing or soon",
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/480490/header.jpg?t=1741275660",
-    "comments": [],
-    "finished": "backlog"
-  },
-  {
-    "title": "State of Decay 2 (2020)",
-    "date": "ongoing or soon",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/495420/header.jpg?t=1741378867",
+    "url": "",
     "comments": [],
     "finished": "backlog"
   },
   {
     "title": "Zefyr: A Thief's Melody (2025)",
-    "date": "ongoing or soon",
+    "date": "2025/06/10",
+    "rating": 6,
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1344990/9d1b8e41b71fb09e0b054ef495d0ac7801a340b0/header.jpg?t=1748876433",
-    "comments": [],
-    "finished": ""
+    "url": "",
+    "comments": [
+      "- a fun 3d platformer bringing it back to the ps2 era",
+      "- gorgeous but a rather empty world",
+      "- boss fights were neat but very easy and cheeseable",
+      "- fun soundtrack"
+    ],
+    "finished": "yes (7.5h)"
   },
   {
     "title": "Psycho Patrol R (2025)",
     "date": "2025/04/01",
     "rating": 8,
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1907590/header.jpg?t=1742789349",
+    "url": "",
     "comments": [
-      "- ville has done it again.",
-      "- while obviously in very early stages, the game was very enjoyable to play.",
-      "- the only gripe i had was how the enemies don't care about los and how they instantly hone in on you, but a recent patch supposedly made changes to the aggro time."
+      "- ville has done it again",
+      "- while obviously in very early stages, the game was very enjoyable to play and as always, the dialogue is peak",
+      "- countryside had horrible loading times and was just a big and empty area",
+      "- the only gripe i had was how the enemies don't care about los and how they instantly hone in on you, but a recent patch supposedly made changes to the aggro time"
     ],
     "finished": "normal, 100% (24h, first content release)"
   },
   {
     "title": "Cruelty Squad (2021)",
     "date": "2022",
-    "rating": 7,
+    "rating": 6,
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1388770/header.jpg?t=1740330233",
     "url": "https://www.imdb.com/title/tt14395212/",
     "comments": [
-      "- it's been so long since i played this but i do remember enjoying it a lot",
-      "- also a really fun speedrun game when played NG",
-      "- might replay some time"
+      "- its been so long since i played this but i do remember enjoying it a lot",
+      "- also a really fun speedrun game when played NG"
     ],
     "finished": "finished (20h)"
+  },
+  {
+    "title": "Mafia (2002)",
+    "date": "2018/12/18",
+    "rating": 9,
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/40990/header.jpg?t=1746716619",
+    "url": "",
+    "comments": [
+      "- one of my all time favorites with some of the best soundtrack in video game history"
+    ],
+    "finished": "yes (10h)"
+  },
+  {
+    "title": "Elden Ring (2022)",
+    "date": "2022/2024",
+    "rating": 8,
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1748630546",
+    "url": "",
+    "comments": [
+      "- sick level design and cool bosses",
+      "- dlc has one of my favorite souls' bosses ever",
+      "- invasions were sort of butchered which is a shame"
+    ],
+    "finished": "all bosses, incl. dlc (153h)"
+  },
+  {
+    "title": "Underrail (2015)",
+    "date": "2023/08/24",
+    "rating": 7,
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/250520/header.jpg?t=1728564887",
+    "url": "",
+    "comments": [
+      "- really cool setting and engaging story",
+      "- stealth was viable without being cheesy"
+    ],
+    "finished": "yes + expedition dlc (61h)"
+  },
+  {
+    "title": "A Hat in Time (2017)",
+    "date": "2019/05/19",
+    "rating": 8,
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/253230/header.jpg?t=1737595291",
+    "url": "",
+    "comments": [
+      "- a really fun 3d platformer with fun movement and tech",
+    "- fun speedrun as well"
+    ],
+    "finished": "yes + dlcs (42h)"
+  },
+  {
+    "title": "Days Gone (2021)",
+    "date": "2021/05/22",
+    "rating": 6,
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1259420/header.jpg?t=1746207981",
+    "url": "",
+    "comments": [
+      "- story while nothing out of the ordinary surprisingly kept me engaged and had some really cool moments",
+    "- typical fun zombie horde shooter"
+    ],
+    "finished": "100% (70h)"
   }
 ]
