@@ -3,24 +3,26 @@
     "title": "Croc: Legend of the Gobbos (2025)",
     "date": "ongoing or soon",
     "image": "https://nintendoeverything.com/wp-content/uploads/Croc-Legend-of-the-Gobbos-remaster-656x369.jpg",
-    "url": "",
-    "comments": ["- a childhood favorite of mine remastered. batchesting"],
+    "url": "https://www.imdb.com/title/tt0290544/",
+    "comments": [
+		"- a childhood favorite of mine remastered. batchesting"
+	],
     "finished": "backlog"
   },
   {
     "title": "Gloomwood (2022)",
     "date": "ongoing or soon",
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1150760/7a2817598e2e5882de17299ce013638a2b35a3f9/header.jpg?t=1745805177",
-    "url": "",
-    "comments": [],
+    "url": "https://www.imdb.com/title/tt22490644/",
+	"comments": [],
     "finished": "backlog"
   },
   {
     "title": "Cult of the Lamb (2022)",
     "date": "ongoing or soon",
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg?t=1747829425",
-    "url": "",
-    "comments": [],
+	"url": "https://www.imdb.com/title/tt21907812/",
+	"comments": [],
     "finished": "backlog"
   },
   {
@@ -28,7 +30,7 @@
     "date": "ongoing or soon",
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1355650/header.jpg?t=1744057461",
     "url": "",
-    "comments": [],
+	"comments": [],
     "finished": "backlog"
   },
   {
@@ -36,131 +38,362 @@
     "date": "ongoing or soon",
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/206190/header.jpg?t=1724172937",
     "url": "",
-    "comments": [],
+	"comments": [],
     "finished": "backlog"
   },
   {
     "title": "Hollowbody (2024)",
     "date": "ongoing or soon",
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2123640/header.jpg?t=1726160434",
-    "url": "",
-    "comments": [],
+    "url": "https://www.imdb.com/title/tt32059391/",
+	"comments": [],
     "finished": "backlog"
   },
   {
     "title": "Pathologic 2 (2019)",
     "date": "ongoing or soon",
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/505230/header.jpg?t=1739397703",
-    "url": "",
-    "comments": [],
+    "url": "https://www.imdb.com/title/tt11174006/",
+	"comments": [],
     "finished": "backlog"
   },
   {
     "title": "Prey (2017)",
     "date": "ongoing or soon",
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/480490/header.jpg?t=1741275660",
-    "url": "",
-    "comments": [],
+	"url": "https://www.imdb.com/title/tt6528212/",
+	"comments": [],
+    "finished": "backlog"
+  },
+  {
+    "title": "Legend of Zelda: Ocarina of Time (1998)",
+    "date": "ongoing or soon",
+    "image": "https://cdn.wccftech.com/wp-content/uploads/2015/09/ocarina_of_time_ft-img.jpg",
+	"url": "https://www.imdb.com/title/tt0184666/",
+	"comments": [
+		"- playing on the wii vc version unless i manage to find one for the n64",
+		"- possibly even ship of harkinian"
+	],
+    "finished": "backlog"
+  },
+  {
+    "title": "Legend of Zelda: Majora's Mask (2000)",
+    "date": "ongoing or soon",
+    "image": "https://i.ytimg.com/vi/2akcAlqsA_Y/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC8gcKiOIhXduxNTZtRUQbks3i_Jw",
+	"url": "https://www.imdb.com/title/tt0264790/",
+	"comments": [
+		"- playing on the n64",
+		"- possibly even ship of harkinian or recomp"
+	],
+    "finished": "backlog"
+  },
+  {
+    "title": "Legend of Zelda: The Wind Waker (2002)",
+    "date": "ongoing or soon",
+    "image": "https://cdn.mos.cms.futurecdn.net/sYnuDNEcG4BLUDt2jfeaF7-650-80.jpg.webp",
+	"url": "https://www.imdb.com/title/tt0325724/",
+	"comments": [
+		"- playing on the wii"
+	],
+    "finished": "backlog"
+  },
+  {
+    "title": "Legend of Zelda: Twilight Princess (2006)",
+    "date": "ongoing or soon",
+    "image": "https://ragglefragglereviews.com/wp-content/uploads/2021/03/si_wii_thelegendofzeldatwilightprincess_image1600w.jpg?w=810",
+	"url": "https://www.imdb.com/title/tt0441877/",
+	"comments": [
+	],
+    "finished": "backlog"
+  },
+  {
+    "title": "Legend of Zelda: Skyward Sword (2011)",
+    "date": "ongoing or soon",
+    "image": "https://150785984.v2.pressablecdn.com/wp-content/uploads/2016/09/skywardsword.webp",
+	"url": "https://www.imdb.com/title/tt2090679/",
+	"comments": [
+	],
+    "finished": "backlog"
+  },
+  {
+    "title": "Super Mario Sunshine (2002)",
+    "date": "ongoing or soon",
+    "image": "https://mario.wiki.gallery/images/thumb/2/2c/Super_Mario_Sunshine_NA_logo.png/227px-Super_Mario_Sunshine_NA_logo.png",
+	"url": "https://www.imdb.com/title/tt0298052/",
+	"comments": [
+		"- playing on the wii"
+	],
+    "finished": "backlog"
+  },
+  {
+    "title": "Super Mario Eclipse",
+    "date": "ongoing or soon",
+    "image": "https://images.gamebanana.com/img/ss/mods/66c9f280640aa.jpg",
+	"url": "https://gamebanana.com/mods/536309",
+	"comments": [
+		"- a super mario sunshine romhack",
+		"- playing on the wii"
+	],
+    "finished": "backlog"
+  },
+  {
+    "title": "Super Mario Galaxy (2007)",
+    "date": "ongoing or soon",
+    "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/06/super_mario_galaxy.jpg?q=50&fit=crop&w=825&dpr=1.5",
+	"url": "https://www.imdb.com/title/tt0879874/",
+	"comments": [
+	],
+    "finished": "backlog"
+  },
+  {
+    "title": "Super Mario Galaxy 2 (2010)",
+    "date": "ongoing or soon",
+    "image": "https://m.media-amazon.com/images/I/71HaP2wezrL.__AC_SY300_SX300_QL70_ML2_.jpg",
+	"url": "https://www.imdb.com/title/tt1698007/",
+	"comments": [
+	],
     "finished": "backlog"
   },
   {
     "title": "Zefyr: A Thief's Melody (2025)",
-    "date": "2025/06/10",
-    "rating": 6,
+    "date": "2025-06-10",
+	"rating": 6,
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1344990/9d1b8e41b71fb09e0b054ef495d0ac7801a340b0/header.jpg?t=1748876433",
     "url": "",
-    "comments": [
-      "- a fun 3d platformer bringing it back to the ps2 era",
-      "- gorgeous but a rather empty world",
-      "- boss fights were neat but very easy and cheeseable",
-      "- fun soundtrack"
-    ],
+	"comments": [
+		"- a fun 3d platformer bringing it back to the ps2 era",
+		"- gorgeous but a rather empty world",
+		"- boss fights were neat but very easy and cheeseable",
+		"- fun soundtrack"
+	],
     "finished": "yes (7.5h)"
   },
   {
     "title": "Psycho Patrol R (2025)",
-    "date": "2025/04/01",
+    "date": "2025-04-01",
     "rating": 8,
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1907590/header.jpg?t=1742789349",
     "url": "",
-    "comments": [
+	"comments": [
       "- ville has done it again",
       "- while obviously in very early stages, the game was very enjoyable to play and as always, the dialogue is peak",
-      "- countryside had horrible loading times and was just a big and empty area",
+	  "- countryside had horrible loading times and was just a big and empty area",
       "- the only gripe i had was how the enemies don't care about los and how they instantly hone in on you, but a recent patch supposedly made changes to the aggro time"
     ],
     "finished": "normal, 100% (24h, first content release)"
   },
   {
     "title": "Cruelty Squad (2021)",
-    "date": "2022",
+    "date": "2022-01-01",
     "rating": 6,
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1388770/header.jpg?t=1740330233",
     "url": "https://www.imdb.com/title/tt14395212/",
     "comments": [
       "- its been so long since i played this but i do remember enjoying it a lot",
-      "- also a really fun speedrun game when played NG"
+      "- also a really fun speedrun game when played NG",
+	  "- placeholder date, don't remember exactly when in 2022 i played it"
     ],
     "finished": "finished (20h)"
   },
   {
     "title": "Mafia (2002)",
-    "date": "2018/12/18",
+    "date": "2018-12-18",
     "rating": 9,
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/40990/header.jpg?t=1746716619",
-    "url": "",
+    "url": "https://www.imdb.com/title/tt0338221/",
     "comments": [
-      "- one of my all time favorites with some of the best soundtrack in video game history"
+		"- one of my all time favorites with some of the best soundtrack in video game history"
     ],
     "finished": "yes (10h)"
   },
   {
     "title": "Elden Ring (2022)",
-    "date": "2022/2024",
+    "date": "2022-02-25",
     "rating": 8,
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1748630546",
-    "url": "",
+    "url": "https://www.imdb.com/title/tt10562854/",
     "comments": [
-      "- sick level design and cool bosses",
-      "- dlc has one of my favorite souls' bosses ever",
-      "- invasions were sort of butchered which is a shame"
+		"- played base game on launch and dlc on launch",
+		"- sick level design and cool bosses",
+		"- dlc has one of my favorite souls' bosses ever",
+		"- invasions were sort of butchered which is a shame"
     ],
     "finished": "all bosses, incl. dlc (153h)"
   },
   {
     "title": "Underrail (2015)",
-    "date": "2023/08/24",
+    "date": "2023-08-24",
     "rating": 7,
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/250520/header.jpg?t=1728564887",
-    "url": "",
+    "url": "https://www.imdb.com/title/tt15801866/",
     "comments": [
-      "- really cool setting and engaging story",
-      "- stealth was viable without being cheesy"
+		"- really cool setting and engaging story",
+		"- stealth was viable without being cheesy"
     ],
     "finished": "yes + expedition dlc (61h)"
   },
   {
     "title": "A Hat in Time (2017)",
-    "date": "2019/05/19",
+    "date": "2019-05-19",
     "rating": 8,
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/253230/header.jpg?t=1737595291",
-    "url": "",
+    "url": "https://www.imdb.com/title/tt15801866/",
     "comments": [
-      "- a really fun 3d platformer with fun movement and tech",
-    "- fun speedrun as well"
+		"- a really fun 3d platformer with fun movement and tech",
+		"- fun speedrun as well"
     ],
     "finished": "yes + dlcs (42h)"
   },
   {
-    "title": "Days Gone (2021)",
-    "date": "2021/05/22",
+    "title": "Days Gone (2019)",
+    "date": "2021-05-22",
     "rating": 6,
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1259420/header.jpg?t=1746207981",
-    "url": "",
+    "url": "https://www.imdb.com/title/tt6795336/",
     "comments": [
-      "- story while nothing out of the ordinary surprisingly kept me engaged and had some really cool moments",
-    "- typical fun zombie horde shooter"
+		"- story while nothing out of the ordinary surprisingly kept me engaged and had some really cool moments",
+		"- typical fun zombie horde shooter"
     ],
     "finished": "100% (70h)"
+  },
+  {
+    "title": "Yellow Taxi Goes Wroom (2024)",
+    "date": "ongoing or soon",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2011780/header.jpg?t=1744194362",
+    "url": "https://www.imdb.com/title/tt32377211/",
+    "comments": [
+
+    ],
+    "finished": "backlog"
+  },
+  {
+    "title": "Toree 3D (2021)",
+    "date": "ongoing or soon",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1554840/header.jpg?t=1641746198",
+    "url": "https://www.imdb.com/title/tt19409432/",
+    "comments": [
+
+    ],
+    "finished": "backlog"
+  },
+  {
+    "title": "Toree 2 (2021)",
+    "date": "ongoing or soon",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1722620/header.jpg?t=1633021233",
+    "url": "https://www.imdb.com/title/tt22502186/",
+    "comments": [
+
+    ],
+    "finished": "backlog"
+  },
+  {
+    "title": "Super Kiwi 64",
+    "date": "ongoing or soon",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1949960/header.jpg?t=1669996918",
+    "url": "",
+    "comments": [
+
+    ],
+    "finished": "backlog"
+  },
+  {
+    "title": "Skin Deep (2025)",
+    "date": "ongoing or soon",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/301280/header.jpg?t=1746226385",
+    "url": "",
+    "comments": [
+
+    ],
+    "finished": "backlog"
+  },
+  {
+    "title": "Skarab",
+    "date": "ongoing or soon",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557830/2a57f7bc646a3b2b8acfcfcda5400eab656b4996/header.jpg?t=1745482596",
+    "url": "",
+    "comments": [
+
+    ],
+    "finished": "backlog"
+  },
+  {
+    "title": "Obenseuer",
+    "date": "ongoing or soon",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/951240/header.jpg?t=1737023122",
+    "url": "",
+    "comments": [
+
+    ],
+    "finished": "backlog"
+  },
+  {
+    "title": "Macbat 64 (2017)",
+    "date": "ongoing or soon",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/568040/header.jpg?t=1616063290",
+    "url": "https://www.imdb.com/title/tt6774708/",
+    "comments": [
+
+    ],
+    "finished": "backlog"
+  },
+  {
+    "title": "Klonoa Phantasy Reverie Series (2022)",
+    "date": "ongoing or soon",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1730680/header.jpg?t=1708327336",
+    "url": "https://www.imdb.com/title/tt21602980/",
+    "comments": [
+
+    ],
+    "finished": "backlog"
+  },
+  {
+    "title": "Fallen Aces (2024)",
+    "date": "ongoing or soon",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1411910/header.jpg?t=1748862476",
+    "url": "https://www.imdb.com/title/tt27561018/",
+    "comments": [
+
+    ],
+    "finished": "backlog"
+  },
+  {
+    "title": "Corn Kidz 64 (2023)",
+    "date": "ongoing or soon",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2575900/header.jpg?t=1706750844",
+    "url": "https://www.imdb.com/title/tt30802204/",
+    "comments": [
+
+    ],
+    "finished": "backlog"
+  },
+  {
+    "title": "Cavern of Dreams (2023)",
+    "date": "ongoing or soon",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2059660/header.jpg?t=1747133871",
+    "url": "https://www.imdb.com/title/tt35696240/",
+    "comments": [
+
+    ],
+    "finished": "backlog"
+  },
+  {
+    "title": "Beyond Sunset (2023)",
+    "date": "ongoing or soon",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1665260/header.jpg?t=1746012740",
+    "url": "",
+    "comments": [
+
+    ],
+    "finished": "backlog"
+  },
+  {
+    "title": "Apocalyptic Vibes",
+    "date": "ongoing or soon",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1840610/header.jpg?t=1713612398",
+    "url": "",
+    "comments": [
+
+    ],
+    "finished": "backlog"
   }
 ]
