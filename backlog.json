@@ -135,27 +135,6 @@
         ]
     },
     {
-        "title": "Toree 3D (2021)",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1554840/header.jpg?t=1641746198",
-        "url": "https://www.imdb.com/title/tt19409432/",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Toree 2 (2021)",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1722620/header.jpg?t=1633021233",
-        "url": "https://www.imdb.com/title/tt22502186/",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Super Kiwi 64 (2022)",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1949960/header.jpg?t=1669996918",
-        "url": "",
-        "comments": [
-        ]
-    },
-    {
         "title": "Skin Deep (2025)",
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/301280/header.jpg?t=1746226385",
         "url": "",
@@ -173,13 +152,6 @@
         "title": "Obenseuer (2018)",
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/951240/header.jpg?t=1737023122",
         "url": "",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Macbat 64 (2017)",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/568040/header.jpg?t=1616063290",
-        "url": "https://www.imdb.com/title/tt6774708/",
         "comments": [
         ]
     },
@@ -242,7 +214,7 @@
         ]
     },
 	{
-        "title": "Banjo-Kazooie Jiggies of Time (2020)",
+        "title": "Legend of Banjo-Kazooie: The Jiggies of Time (2020)",
         "image": "https://www.romhacking.net/hacks/n64/images/titles/6398titlescreen.png",
         "url": "https://www.romhacking.net/hacks/6398/",
         "comments": [
@@ -283,6 +255,14 @@
         "url": "https://www.moddb.com/mods/ashes-2063/downloads/ashes-stand-alone-version-101",
         "comments": [
 			"- doom total conversion mod"
+        ]
+    },
+	{
+        "title": "Gears of War: Reloaded (2025)",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523720/2ba5d8203b18c38fb2d10b14e92a285a850f08ab/header.jpg?t=1750878118",
+        "url": "",
+        "comments": [
+			"- batchesting once again, waited for this for so long"
         ]
     }
 ]

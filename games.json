@@ -113,5 +113,60 @@
             "- cool level design and a fun final boss fight"
         ],
         "finished": "yes (4.5h)"
+    },
+    {
+        "title": "Toree 3D (2021)",
+		"date": "2025-06-29",
+		"rating": 3,
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1554840/header.jpg?t=1641746198",
+        "url": "https://www.imdb.com/title/tt19409432/",
+        "comments": [
+			"- a bite sized 3d platformer collectathon with a pleasant aesthetic and a banging soundtrack",
+			"- no movement mechanics outside of running and double jumping",
+			"- level design very linear and straightforward with the final level having some more spice to it",
+			"- the way the fans work is god awful and infuriating"
+        ],
+		"finished": "yes, 30min"
+    },
+	{
+        "title": "Toree 2 (2021)",
+		"date": "2025-06-29",
+		"rating": 3,
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1722620/header.jpg?t=1633021233",
+        "url": "https://www.imdb.com/title/tt22502186/",
+        "comments": [
+			"- unfortunately no movement changes from the first game",
+			"- level design was infinitely better, soundtrack still banging and most importantly, no fans",
+			"- final level including a boss battle was surprising"
+        ],
+		"finished": "yes, 20min"
+    },
+	{
+        "title": "Macbat 64 (2017)",
+		"date": "2025-06-29",
+		"rating": 3,
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/568040/header.jpg?t=1616063290",
+        "url": "https://www.imdb.com/title/tt6774708/",
+        "comments": [
+			"- an older bite sized 3d puzzle platformer collectathon by the creator of toree",
+			"- surprisingly quite a bit of variety in the levels",
+			"- the camera sensitivty was awful and there were no settings to change it. especially the karting level suffered because of this",
+			"- even had some cutscenes and very little voice acting"
+        ],
+		"finished": "yes, 40min"
+    },
+	{
+        "title": "Super Kiwi 64 (2022)",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1949960/header.jpg?t=1669996918",
+		"date": "2025-06-29",
+		"rating": 5,
+        "url": "",
+        "comments": [
+			"- yet another bite sized 3d platformer collectathon by the creator of toree",
+			"- very fun movement, the dash and being able to stick to walls was nice",
+			"- level design had a lot of variety to it, but even then they were nothing exciting and very small",
+			"- final boss battle was a bit of a letdown and way too forgiving"
+        ],
+		"finished": "yes, 1h 20min"
     }
 ]
