@@ -261,15 +261,9 @@ layout: null
         setTimeout(() => {
           tbody.innerHTML = "";
 
-          const filteredGames = allGames.filter((g) =>
-            showingBacklog
-              ? g.finished === "backlog"
-              : g.finished !== "backlog",
-          );
-
           const start = (page - 1) * GAMES_PER_PAGE;
           const end = start + GAMES_PER_PAGE;
-          const pageGames = filteredGames.slice(start, end);
+          const pageGames = allGames.slice(start, end);
 
           pageGames.forEach((game) => {
             const row = document.createElement("tr");
@@ -308,7 +302,7 @@ layout: null
             tbody.appendChild(row);
           });
 
-          renderPaginationControls(page, filteredGames.length);
+          renderPaginationControls(page, allGames.length);
           updateColumnVisibility();
           tbody.style.opacity = "1";
         }, 300);
@@ -358,10 +352,11 @@ layout: null
       document.getElementById("toggle-view").addEventListener("click", () => {
         showingBacklog = !showingBacklog;
         currentPage = 1;
-        renderPage(currentPage);
+        const file = showingBacklog ? "backlog.json" : "games.json";
+        loadGames(file);
         document.getElementById("toggle-view").textContent = showingBacklog
-          ? "show previously played"
-          : "show backlog";
+		  ? "show previously played"
+		  : "show backlog";
       });
 
       document.getElementById("info-button").addEventListener("click", () => {
@@ -380,23 +375,45 @@ layout: null
         renderPage(currentPage);
       }
 
-      fetch("games.json")
-        .then((res) => {
-          if (!res.ok) throw new Error("failed to load games.json");
-          return res.json();
-        })
-        .then((gamesData) => {
-          allGames = gamesData.sort(
-            (a, b) => new Date(b.date) - new Date(a.date),
-          );
-          renderPage(1);
-        })
-        .catch((err) => {
-          document.getElementById("games").innerHTML =
-            '<tr><td colspan="6">error loading games list.</td></tr>';
-          console.error(err);
-        });
+	function loadGames(file) {
+	  fetch(file)
+		.then((res) => {
+		  if (!res.ok) throw new Error(`failed to load ${file}`);
+		  return res.json();
+		})
+		.then((gamesData) => {
+		  allGames = gamesData.sort((a, b) => {
+			const aDate = new Date(a.date);
+			const bDate = new Date(b.date);
+			return bDate - aDate;
+		  });
+		  renderPage(1);
+		})
+		.catch((err) => {
+		  document.getElementById("games").innerHTML =
+			'<tr><td colspan="6">error loading games list.</td></tr>';
+		  console.error(err);
+		});
+	}
+
+	loadGames("games.json");
     </script>
+	<script>
+	  window.addEventListener('DOMContentLoaded', () => {
+		const table = document.querySelector('table');
+		if (!table) return;
+
+		const rows = table.querySelectorAll('tbody tr');
+
+		rows.forEach(row => {
+		  const cells = row.querySelectorAll('td');
+		  const finishedCell = cells[cells.length - 1];
+		  if (finishedCell && finishedCell.textContent.trim() === '-') {
+			row.style.display = 'none';
+		  }
+		});
+	  });
+	</script>
     <script>
       document.body.classList.add("fade-out");
 
