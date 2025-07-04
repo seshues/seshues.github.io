@@ -207,20 +207,20 @@ layout: null
         </div>
       </div>
 
-    <div class="table-wrapper">
-      <table class="games-table">
-        <thead>
-          <tr>
-            <th class="date">date</th>
-            <th class="cover">game</th>
-            <th class="rating">rating</th>
-            <th class="comment">comments</th>
-            <th class="finished">finished</th>
-          </tr>
-        </thead>
-        <tbody id="games"></tbody>
-      </table>
-    </div>
+      <div class="table-wrapper">
+        <table class="games-table">
+          <thead>
+            <tr>
+              <th class="date">date</th>
+              <th class="cover">game</th>
+              <th class="rating">rating</th>
+              <th class="comment">comments</th>
+              <th class="finished">finished</th>
+            </tr>
+          </thead>
+          <tbody id="games"></tbody>
+        </table>
+      </div>
 
       <a href="index.html" class="home-link">home</a>
       <div id="pagination"></div>
@@ -355,8 +355,8 @@ layout: null
         const file = showingBacklog ? "backlog.json" : "games.json";
         loadGames(file);
         document.getElementById("toggle-view").textContent = showingBacklog
-		  ? "show previously played"
-		  : "show backlog";
+          ? "show previously played"
+          : "show backlog";
       });
 
       document.getElementById("info-button").addEventListener("click", () => {
@@ -375,45 +375,37 @@ layout: null
         renderPage(currentPage);
       }
 
-	function loadGames(file) {
-	  fetch(file)
-		.then((res) => {
-		  if (!res.ok) throw new Error(`failed to load ${file}`);
-		  return res.json();
-		})
-		.then((gamesData) => {
-		  allGames = gamesData.sort((a, b) => {
-			const aDate = new Date(a.date);
-			const bDate = new Date(b.date);
-			return bDate - aDate;
-		  });
-		  renderPage(1);
-		})
-		.catch((err) => {
-		  document.getElementById("games").innerHTML =
-			'<tr><td colspan="6">error loading games list.</td></tr>';
-		  console.error(err);
-		});
-	}
+      function loadGames(file) {
+        fetch(file)
+          .then((res) => {
+            if (!res.ok) throw new Error(`failed to load ${file}`);
+            return res.json();
+          })
+          .then((gamesData) => {
+            allGames = gamesData.map((game, index) => ({ ...game, index }));
 
-	loadGames("games.json");
+            allGames.sort((a, b) => {
+              if (a.finished === "ongoing" && b.finished !== "ongoing")
+                return -1;
+              if (a.finished !== "ongoing" && b.finished === "ongoing")
+                return 1;
+
+              const aDate = new Date(a.date);
+              const bDate = new Date(b.date);
+              if (aDate.getTime() !== bDate.getTime()) return bDate - aDate;
+              return b.index - a.index;
+            });
+            renderPage(1);
+          })
+          .catch((err) => {
+            document.getElementById("games").innerHTML =
+              '<tr><td colspan="6">error loading games list.</td></tr>';
+            console.error(err);
+          });
+      }
+
+      loadGames("games.json");
     </script>
-	<script>
-	  window.addEventListener('DOMContentLoaded', () => {
-		const table = document.querySelector('table');
-		if (!table) return;
-
-		const rows = table.querySelectorAll('tbody tr');
-
-		rows.forEach(row => {
-		  const cells = row.querySelectorAll('td');
-		  const finishedCell = cells[cells.length - 1];
-		  if (finishedCell && finishedCell.textContent.trim() === '-') {
-			row.style.display = 'none';
-		  }
-		});
-	  });
-	</script>
     <script>
       document.body.classList.add("fade-out");
 

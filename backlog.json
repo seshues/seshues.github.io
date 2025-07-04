@@ -1,268 +1,218 @@
 [
-    {
-        "title": "Croc: Legend of the Gobbos (2025)",
-        "image": "https://nintendoeverything.com/wp-content/uploads/Croc-Legend-of-the-Gobbos-remaster-656x369.jpg",
-        "url": "https://www.imdb.com/title/tt0290544/",
-        "comments": [
-            "- a childhood favorite of mine remastered. batchesting"
-        ]
-    },
-    {
-        "title": "Gloomwood (2022)",
-        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1150760/7a2817598e2e5882de17299ce013638a2b35a3f9/header.jpg?t=1745805177",
-        "url": "https://www.imdb.com/title/tt22490644/",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Cult of the Lamb (2022)",
-        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg?t=1747829425",
-        "url": "https://www.imdb.com/title/tt21907812/",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Filcher (2021)",
-        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1355650/header.jpg?t=1744057461",
-        "url": "",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Gunpoint (2013)",
-        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/206190/header.jpg?t=1724172937",
-        "url": "",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Hollowbody (2024)",
-        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2123640/header.jpg?t=1726160434",
-        "url": "https://www.imdb.com/title/tt32059391/",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Pathologic 2 (2019)",
-        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/505230/header.jpg?t=1739397703",
-        "url": "https://www.imdb.com/title/tt11174006/",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Prey (2017)",
-        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/480490/header.jpg?t=1741275660",
-        "url": "https://www.imdb.com/title/tt6528212/",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Legend of Zelda: Ocarina of Time (1998)",
-        "image": "https://cdn.wccftech.com/wp-content/uploads/2015/09/ocarina_of_time_ft-img.jpg",
-        "url": "https://www.imdb.com/title/tt0184666/",
-        "comments": [
-            "- playing on the wii vc version unless i manage to find one for the n64",
-            "- possibly even ship of harkinian"
-        ]
-    },
-    {
-        "title": "Legend of Zelda: Majora's Mask (2000)",
-        "image": "https://i.ytimg.com/vi/2akcAlqsA_Y/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC8gcKiOIhXduxNTZtRUQbks3i_Jw",
-        "url": "https://www.imdb.com/title/tt0264790/",
-        "comments": [
-            "- playing on the n64",
-            "- possibly even ship of harkinian or recomp"
-        ]
-    },
-    {
-        "title": "Legend of Zelda: The Wind Waker (2002)",
-        "image": "https://cdn.mos.cms.futurecdn.net/sYnuDNEcG4BLUDt2jfeaF7-650-80.jpg.webp",
-        "url": "https://www.imdb.com/title/tt0325724/",
-        "comments": [
-            "- playing on the wii"
-        ]
-    },
-    {
-        "title": "Legend of Zelda: Twilight Princess (2006)",
-        "image": "https://ragglefragglereviews.com/wp-content/uploads/2021/03/si_wii_thelegendofzeldatwilightprincess_image1600w.jpg?w=810",
-        "url": "https://www.imdb.com/title/tt0441877/",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Legend of Zelda: Skyward Sword (2011)",
-        "image": "https://150785984.v2.pressablecdn.com/wp-content/uploads/2016/09/skywardsword.webp",
-        "url": "https://www.imdb.com/title/tt2090679/",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Super Mario Sunshine (2002)",
-        "image": "https://mario.wiki.gallery/images/thumb/2/2c/Super_Mario_Sunshine_NA_logo.png/227px-Super_Mario_Sunshine_NA_logo.png",
-        "url": "https://www.imdb.com/title/tt0298052/",
-        "comments": [
-            "- playing on the wii"
-        ]
-    },
-    {
-        "title": "Super Mario Eclipse (2024)",
-        "image": "https://images.gamebanana.com/img/ss/mods/66c9f280640aa.jpg",
-        "url": "https://gamebanana.com/mods/536309",
-        "comments": [
-            "- a super mario sunshine romhack",
-            "- playing on the wii"
-        ]
-    },
-    {
-        "title": "Super Mario Galaxy (2007)",
-        "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/06/super_mario_galaxy.jpg?q=50&fit=crop&w=825&dpr=1.5",
-        "url": "https://www.imdb.com/title/tt0879874/",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Super Mario Galaxy 2 (2010)",
-        "image": "https://upload.wikimedia.org/wikipedia/en/6/65/Super_Mario_Galaxy_2_Box_Art.jpg",
-        "url": "https://www.imdb.com/title/tt1698007/",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Yellow Taxi Goes Wroom (2024)",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2011780/header.jpg?t=1744194362",
-        "url": "https://www.imdb.com/title/tt32377211/",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Skin Deep (2025)",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/301280/header.jpg?t=1746226385",
-        "url": "",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Skarab (2025)",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557830/2a57f7bc646a3b2b8acfcfcda5400eab656b4996/header.jpg?t=1745482596",
-        "url": "",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Obenseuer (2018)",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/951240/header.jpg?t=1737023122",
-        "url": "",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Klonoa Phantasy Reverie Series (2022)",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1730680/header.jpg?t=1708327336",
-        "url": "https://www.imdb.com/title/tt21602980/",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Fallen Aces (2024)",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1411910/header.jpg?t=1748862476",
-        "url": "https://www.imdb.com/title/tt27561018/",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Corn Kidz 64 (2023)",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2575900/header.jpg?t=1706750844",
-        "url": "https://www.imdb.com/title/tt30802204/",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Cavern of Dreams (2023)",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2059660/header.jpg?t=1747133871",
-        "url": "https://www.imdb.com/title/tt35696240/",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Beyond Sunset (2023)",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1665260/header.jpg?t=1746012740",
-        "url": "",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Apocalyptic Vibes (2023)",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1840610/header.jpg?t=1713612398",
-        "url": "",
-        "comments": [
-        ]
-    },
-    {
-        "title": "Northern Journey (2021)",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1639790/header.jpg?t=1666983735",
-        "url": "",
-        "comments": [
-        ]
-    },
-	{
-        "title": "Banjo-Kazooie Nostalgia 64 (2025)",
-        "image": "https://i.kinja-img.com/image/upload/c_fill,h_352,q_80,w_264/4129b297836ad9fb0e0f0355da84ec2f.jpg",
-        "url": "https://youtu.be/-niehkOWOKg",
-        "comments": [
-			"- a bk sm64 mashup romhack",
-			"- playing on the wii"
-        ]
-    },
-	{
-        "title": "Legend of Banjo-Kazooie: The Jiggies of Time (2020)",
-        "image": "https://www.romhacking.net/hacks/n64/images/titles/6398titlescreen.png",
-        "url": "https://www.romhacking.net/hacks/6398/",
-        "comments": [
-			"- a bk ocarina of time mashup romhack",
-			"- playing on the wii"
-        ]
-    },
-	{
-        "title": "Takua 64 (2023)",
-        "image": "https://api.romhacking.com/game/takua-64--bionicle64-/BoxArtFront.png",
-        "url": "https://romhacking.com/hack/takua-64--bionicle64-",
-        "comments": [
-			"- a bionicle sm64 romhack",
-			"- playing on the wii"
-        ]
-    },
-	{
-        "title": "Legend of Zelda: The Missing Link (2021)",
-        "image": "https://www.romhacking.net/hacks/n64/images/titles/5334titlescreen.PNG",
-        "url": "https://www.romhacking.net/hacks/5334/",
-        "comments": [
-			"- an ocarina of time romhack that aims to bridge the story gap from oot to mm",
-			"- playing on the wii"
-        ]
-    },
-	{
-        "title": "Legend of Zelda: The Master of Time (2020)",
-        "image": "https://www.romhacking.net/hacks/n64/images/titles/5801titlescreen.png",
-        "url": "https://www.romhacking.net/hacks/5801/",
-        "comments": [
-			"- an ocarina of time romhack",
-			"- playing on the wii"
-        ]
-    },
-	{
-        "title": "Ashes 2063 (2022)",
-        "image": "https://media.moddb.com/images/downloads/1/227/226759/moddbLogoA.png",
-        "url": "https://www.moddb.com/mods/ashes-2063/downloads/ashes-stand-alone-version-101",
-        "comments": [
-			"- doom total conversion mod"
-        ]
-    },
-	{
-        "title": "Gears of War: Reloaded (2025)",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523720/2ba5d8203b18c38fb2d10b14e92a285a850f08ab/header.jpg?t=1750878118",
-        "url": "",
-        "comments": [
-			"- batchesting once again, waited for this for so long"
-        ]
-    }
+  {
+    "title": "Croc: Legend of the Gobbos (2025)",
+    "image": "https://nintendoeverything.com/wp-content/uploads/Croc-Legend-of-the-Gobbos-remaster-656x369.jpg",
+    "url": "https://www.imdb.com/title/tt0290544/",
+    "comments": ["- a childhood favorite of mine remastered. batchesting"]
+  },
+  {
+    "title": "Gloomwood (2022)",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1150760/7a2817598e2e5882de17299ce013638a2b35a3f9/header.jpg?t=1745805177",
+    "url": "https://www.imdb.com/title/tt22490644/",
+    "comments": []
+  },
+  {
+    "title": "Cult of the Lamb (2022)",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg?t=1747829425",
+    "url": "https://www.imdb.com/title/tt21907812/",
+    "comments": []
+  },
+  {
+    "title": "Filcher (2021)",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1355650/header.jpg?t=1744057461",
+    "url": "",
+    "comments": []
+  },
+  {
+    "title": "Gunpoint (2013)",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/206190/header.jpg?t=1724172937",
+    "url": "",
+    "comments": []
+  },
+  {
+    "title": "Hollowbody (2024)",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2123640/header.jpg?t=1726160434",
+    "url": "https://www.imdb.com/title/tt32059391/",
+    "comments": []
+  },
+  {
+    "title": "Pathologic 2 (2019)",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/505230/header.jpg?t=1739397703",
+    "url": "https://www.imdb.com/title/tt11174006/",
+    "comments": []
+  },
+  {
+    "title": "Prey (2017)",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/480490/header.jpg?t=1741275660",
+    "url": "https://www.imdb.com/title/tt6528212/",
+    "comments": []
+  },
+  {
+    "title": "Legend of Zelda: Ocarina of Time (1998)",
+    "image": "https://cdn.wccftech.com/wp-content/uploads/2015/09/ocarina_of_time_ft-img.jpg",
+    "url": "https://www.imdb.com/title/tt0184666/",
+    "comments": [
+      "- playing on the wii vc version unless i manage to find one for the n64",
+      "- possibly even ship of harkinian"
+    ]
+  },
+  {
+    "title": "Legend of Zelda: Majora's Mask (2000)",
+    "image": "https://i.ytimg.com/vi/2akcAlqsA_Y/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC8gcKiOIhXduxNTZtRUQbks3i_Jw",
+    "url": "https://www.imdb.com/title/tt0264790/",
+    "comments": [
+      "- playing on the n64",
+      "- possibly even ship of harkinian or recomp"
+    ]
+  },
+  {
+    "title": "Legend of Zelda: The Wind Waker (2002)",
+    "image": "https://cdn.mos.cms.futurecdn.net/sYnuDNEcG4BLUDt2jfeaF7-650-80.jpg.webp",
+    "url": "https://www.imdb.com/title/tt0325724/",
+    "comments": ["- playing on the wii"]
+  },
+  {
+    "title": "Legend of Zelda: Twilight Princess (2006)",
+    "image": "https://ragglefragglereviews.com/wp-content/uploads/2021/03/si_wii_thelegendofzeldatwilightprincess_image1600w.jpg?w=810",
+    "url": "https://www.imdb.com/title/tt0441877/",
+    "comments": []
+  },
+  {
+    "title": "Legend of Zelda: Skyward Sword (2011)",
+    "image": "https://150785984.v2.pressablecdn.com/wp-content/uploads/2016/09/skywardsword.webp",
+    "url": "https://www.imdb.com/title/tt2090679/",
+    "comments": []
+  },
+  {
+    "title": "Super Mario Sunshine (2002)",
+    "image": "https://mario.wiki.gallery/images/thumb/2/2c/Super_Mario_Sunshine_NA_logo.png/227px-Super_Mario_Sunshine_NA_logo.png",
+    "url": "https://www.imdb.com/title/tt0298052/",
+    "comments": ["- playing on the wii"]
+  },
+  {
+    "title": "Super Mario Eclipse (2024)",
+    "image": "https://images.gamebanana.com/img/ss/mods/66c9f280640aa.jpg",
+    "url": "https://gamebanana.com/mods/536309",
+    "comments": ["- a super mario sunshine romhack", "- playing on the wii"]
+  },
+  {
+    "title": "Super Mario Galaxy (2007)",
+    "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/06/super_mario_galaxy.jpg?q=50&fit=crop&w=825&dpr=1.5",
+    "url": "https://www.imdb.com/title/tt0879874/",
+    "comments": []
+  },
+  {
+    "title": "Super Mario Galaxy 2 (2010)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/65/Super_Mario_Galaxy_2_Box_Art.jpg",
+    "url": "https://www.imdb.com/title/tt1698007/",
+    "comments": []
+  },
+  {
+    "title": "Yellow Taxi Goes Wroom (2024)",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2011780/header.jpg?t=1744194362",
+    "url": "https://www.imdb.com/title/tt32377211/",
+    "comments": []
+  },
+  {
+    "title": "Skin Deep (2025)",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/301280/header.jpg?t=1746226385",
+    "url": "",
+    "comments": []
+  },
+  {
+    "title": "Skarab (2025)",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557830/2a57f7bc646a3b2b8acfcfcda5400eab656b4996/header.jpg?t=1745482596",
+    "url": "",
+    "comments": []
+  },
+  {
+    "title": "Obenseuer (2018)",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/951240/header.jpg?t=1737023122",
+    "url": "",
+    "comments": []
+  },
+  {
+    "title": "Klonoa Phantasy Reverie Series (2022)",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1730680/header.jpg?t=1708327336",
+    "url": "https://www.imdb.com/title/tt21602980/",
+    "comments": []
+  },
+  {
+    "title": "Fallen Aces (2024)",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1411910/header.jpg?t=1748862476",
+    "url": "https://www.imdb.com/title/tt27561018/",
+    "comments": []
+  },
+  {
+    "title": "Cavern of Dreams (2023)",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2059660/header.jpg?t=1747133871",
+    "url": "https://www.imdb.com/title/tt35696240/",
+    "comments": []
+  },
+  {
+    "title": "Beyond Sunset (2023)",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1665260/header.jpg?t=1746012740",
+    "url": "",
+    "comments": []
+  },
+  {
+    "title": "Apocalyptic Vibes (2023)",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1840610/header.jpg?t=1713612398",
+    "url": "",
+    "comments": []
+  },
+  {
+    "title": "Northern Journey (2021)",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1639790/header.jpg?t=1666983735",
+    "url": "",
+    "comments": []
+  },
+  {
+    "title": "Banjo-Kazooie Nostalgia 64 (2025)",
+    "image": "https://i.kinja-img.com/image/upload/c_fill,h_352,q_80,w_264/4129b297836ad9fb0e0f0355da84ec2f.jpg",
+    "url": "https://youtu.be/-niehkOWOKg",
+    "comments": ["- a bk sm64 mashup romhack", "- playing on the wii"]
+  },
+  {
+    "title": "Legend of Banjo-Kazooie: The Jiggies of Time (2020)",
+    "image": "https://www.romhacking.net/hacks/n64/images/titles/6398titlescreen.png",
+    "url": "https://www.romhacking.net/hacks/6398/",
+    "comments": [
+      "- a bk ocarina of time mashup romhack",
+      "- playing on the wii"
+    ]
+  },
+  {
+    "title": "Takua 64 (2023)",
+    "image": "https://api.romhacking.com/game/takua-64--bionicle64-/BoxArtFront.png",
+    "url": "https://romhacking.com/hack/takua-64--bionicle64-",
+    "comments": ["- a bionicle sm64 romhack", "- playing on the wii"]
+  },
+  {
+    "title": "Legend of Zelda: The Missing Link (2021)",
+    "image": "https://www.romhacking.net/hacks/n64/images/titles/5334titlescreen.PNG",
+    "url": "https://www.romhacking.net/hacks/5334/",
+    "comments": [
+      "- an ocarina of time romhack that aims to bridge the story gap from oot to mm",
+      "- playing on the wii"
+    ]
+  },
+  {
+    "title": "Legend of Zelda: The Master of Time (2020)",
+    "image": "https://www.romhacking.net/hacks/n64/images/titles/5801titlescreen.png",
+    "url": "https://www.romhacking.net/hacks/5801/",
+    "comments": ["- an ocarina of time romhack", "- playing on the wii"]
+  },
+  {
+    "title": "Ashes 2063 (2022)",
+    "image": "https://media.moddb.com/images/downloads/1/227/226759/moddbLogoA.png",
+    "url": "https://www.moddb.com/mods/ashes-2063/downloads/ashes-stand-alone-version-101",
+    "comments": ["- doom total conversion mod"]
+  },
+  {
+    "title": "Gears of War: Reloaded (2025)",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523720/2ba5d8203b18c38fb2d10b14e92a285a850f08ab/header.jpg?t=1750878118",
+    "url": "",
+    "comments": ["- batchesting once again, waited for this for so long"]
+  }
 ]

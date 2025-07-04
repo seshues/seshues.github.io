@@ -1,172 +1,181 @@
 [
-    {
-        "title": "Zefyr: A Thief's Melody (2025)",
-        "date": "2025-06-10",
-        "rating": 6,
-        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1344990/9d1b8e41b71fb09e0b054ef495d0ac7801a340b0/header.jpg?t=1748876433",
-        "url": "",
-        "comments": [
-            "- a fun 3d platformer bringing it back to the ps2 era",
-            "- gorgeous but a rather empty world",
-            "- boss fights were neat but very easy and cheeseable",
-            "- fun soundtrack"
-        ],
-        "finished": "yes (7.5h)"
-    },
-    {
-        "title": "Psycho Patrol R (2025)",
-        "date": "2025-04-01",
-        "rating": 8,
-        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1907590/header.jpg?t=1742789349",
-        "url": "",
-        "comments": [
-            "- ville has done it again",
-            "- while obviously in very early stages, the game was very enjoyable to play and as always, the dialogue is peak",
-            "- countryside had horrible loading times and was just a big and empty area",
-            "- the only gripe i had was how the enemies don't care about los and how they instantly hone in on you, but a recent patch supposedly made changes to the aggro time"
-        ],
-        "finished": "normal, 100% (24h, first content release)"
-    },
-    {
-        "title": "Cruelty Squad (2021)",
-        "date": "2022-01-01",
-        "rating": 6,
-        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1388770/header.jpg?t=1740330233",
-        "url": "https://www.imdb.com/title/tt14395212/",
-        "comments": [
-            "- its been so long since i played this but i do remember enjoying it a lot",
-            "- also a really fun speedrun game when played NG",
-            "- placeholder date, don't remember exactly when in 2022 i played it"
-        ],
-        "finished": "finished (20h)"
-    },
-    {
-        "title": "Mafia (2002)",
-        "date": "2018-12-18",
-        "rating": 9,
-        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/40990/header.jpg?t=1746716619",
-        "url": "https://www.imdb.com/title/tt0338221/",
-        "comments": [
-            "- one of my all time favorites with some of the best soundtrack in video game history"
-        ],
-        "finished": "yes (10h)"
-    },
-    {
-        "title": "Elden Ring (2022)",
-        "date": "2022-02-25",
-        "rating": 8,
-        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1748630546",
-        "url": "https://www.imdb.com/title/tt10562854/",
-        "comments": [
-            "- played base game on launch and dlc on launch",
-            "- sick level design and cool bosses",
-            "- dlc has one of my favorite souls' bosses ever",
-            "- invasions were sort of butchered which is a shame"
-        ],
-        "finished": "all bosses, incl. dlc (153h)"
-    },
-    {
-        "title": "Underrail (2015)",
-        "date": "2023-08-24",
-        "rating": 7,
-        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/250520/header.jpg?t=1728564887",
-        "url": "https://www.imdb.com/title/tt15801866/",
-        "comments": [
-            "- really cool setting and engaging story",
-            "- stealth was viable without being cheesy"
-        ],
-        "finished": "yes + expedition dlc (61h)"
-    },
-    {
-        "title": "A Hat in Time (2017)",
-        "date": "2019-05-19",
-        "rating": 8,
-        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/253230/header.jpg?t=1737595291",
-        "url": "https://www.imdb.com/title/tt15801866/",
-        "comments": [
-            "- a really fun 3d platformer with fun movement and tech",
-            "- fun speedrun as well"
-        ],
-        "finished": "yes + dlcs (42h)"
-    },
-    {
-        "title": "Days Gone (2019)",
-        "date": "2021-05-22",
-        "rating": 6,
-        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1259420/header.jpg?t=1746207981",
-        "url": "https://www.imdb.com/title/tt6795336/",
-        "comments": [
-            "- story while nothing out of the ordinary surprisingly kept me engaged and had some really cool moments",
-            "- typical fun zombie horde shooter"
-        ],
-        "finished": "100% (70h)"
-    },
-    {
-        "title": "Pseudoregalia (2023)",
-        "date": "2023-08-01",
-        "rating": 6,
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2365810/header.jpg?t=1736183956",
-        "url": "https://www.imdb.com/title/tt28913797/",
-        "comments": [
-            "- a very fun old school platformer game",
-            "- movement was fun although a little clunky when it comes to wallruns and -jumps, probably just a skill issue",
-            "- cool level design and a fun final boss fight"
-        ],
-        "finished": "yes (4.5h)"
-    },
-    {
-        "title": "Toree 3D (2021)",
-		"date": "2025-06-29",
-		"rating": 3,
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1554840/header.jpg?t=1641746198",
-        "url": "https://www.imdb.com/title/tt19409432/",
-        "comments": [
-			"- a bite sized 3d platformer collectathon with a pleasant aesthetic and a banging soundtrack",
-			"- no movement mechanics outside of running and double jumping",
-			"- level design very linear and straightforward with the final level having some more spice to it",
-			"- the way the fans work is god awful and infuriating"
-        ],
-		"finished": "yes, 30min"
-    },
-	{
-        "title": "Toree 2 (2021)",
-		"date": "2025-06-29",
-		"rating": 3,
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1722620/header.jpg?t=1633021233",
-        "url": "https://www.imdb.com/title/tt22502186/",
-        "comments": [
-			"- unfortunately no movement changes from the first game",
-			"- level design was infinitely better, soundtrack still banging and most importantly, no fans",
-			"- final level including a boss battle was surprising"
-        ],
-		"finished": "yes, 20min"
-    },
-	{
-        "title": "Macbat 64 (2017)",
-		"date": "2025-06-29",
-		"rating": 3,
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/568040/header.jpg?t=1616063290",
-        "url": "https://www.imdb.com/title/tt6774708/",
-        "comments": [
-			"- an older bite sized 3d puzzle platformer collectathon by the creator of toree",
-			"- surprisingly quite a bit of variety in the levels",
-			"- the camera sensitivty was awful and there were no settings to change it. especially the karting level suffered because of this",
-			"- even had some cutscenes and very little voice acting"
-        ],
-		"finished": "yes, 40min"
-    },
-	{
-        "title": "Super Kiwi 64 (2022)",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1949960/header.jpg?t=1669996918",
-		"date": "2025-06-29",
-		"rating": 5,
-        "url": "",
-        "comments": [
-			"- yet another bite sized 3d platformer collectathon by the creator of toree",
-			"- very fun movement, the dash and being able to stick to walls was nice",
-			"- level design had a lot of variety to it, but even then they were nothing exciting and very small",
-			"- final boss battle was a bit of a letdown and way too forgiving"
-        ],
-		"finished": "yes, 1h 20min"
-    }
+  {
+    "title": "Zefyr: A Thief's Melody (2025)",
+    "date": "2025-06-10",
+    "rating": 6,
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1344990/9d1b8e41b71fb09e0b054ef495d0ac7801a340b0/header.jpg?t=1748876433",
+    "url": "",
+    "comments": [
+      "- a fun 3d platformer bringing it back to the ps2 era",
+      "- gorgeous but a rather empty world",
+      "- boss fights were neat but very easy and cheeseable",
+      "- fun soundtrack"
+    ],
+    "finished": "yes (7.5h)"
+  },
+  {
+    "title": "Psycho Patrol R (2025)",
+    "date": "2025-04-01",
+    "rating": 8,
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1907590/header.jpg?t=1742789349",
+    "url": "",
+    "comments": [
+      "- ville has done it again",
+      "- while obviously in very early stages, the game was very enjoyable to play and as always, the dialogue is peak",
+      "- countryside had horrible loading times and was just a big and empty area",
+      "- the only gripe i had was how the enemies don't care about los and how they instantly hone in on you, but a recent patch supposedly made changes to the aggro time"
+    ],
+    "finished": "normal, 100% (24h, first content release)"
+  },
+  {
+    "title": "Cruelty Squad (2021)",
+    "date": "2022-01-01",
+    "rating": 6,
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1388770/header.jpg?t=1740330233",
+    "url": "https://www.imdb.com/title/tt14395212/",
+    "comments": [
+      "- its been so long since i played this but i do remember enjoying it a lot",
+      "- also a really fun speedrun game when played NG",
+      "- placeholder date, don't remember exactly when in 2022 i played it"
+    ],
+    "finished": "100% (20h)"
+  },
+  {
+    "title": "Mafia (2002)",
+    "date": "2018-12-18",
+    "rating": 9,
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/40990/header.jpg?t=1746716619",
+    "url": "https://www.imdb.com/title/tt0338221/",
+    "comments": [
+      "- one of my all time favorites with some of the best soundtrack in video game history"
+    ],
+    "finished": "yes (10h)"
+  },
+  {
+    "title": "Elden Ring (2022)",
+    "date": "2022-02-25",
+    "rating": 8,
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1748630546",
+    "url": "https://www.imdb.com/title/tt10562854/",
+    "comments": [
+      "- played base game on launch and dlc on launch",
+      "- sick level design and cool bosses",
+      "- dlc has one of my favorite souls' bosses ever",
+      "- invasions were sort of butchered which is a shame"
+    ],
+    "finished": "all bosses, incl. dlc (153h)"
+  },
+  {
+    "title": "Underrail (2015)",
+    "date": "2023-08-24",
+    "rating": 7,
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/250520/header.jpg?t=1728564887",
+    "url": "https://www.imdb.com/title/tt15801866/",
+    "comments": [
+      "- really cool setting and engaging story",
+      "- stealth was viable without being cheesy"
+    ],
+    "finished": "yes + expedition dlc (61h)"
+  },
+  {
+    "title": "A Hat in Time (2017)",
+    "date": "2019-05-19",
+    "rating": 8,
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/253230/header.jpg?t=1737595291",
+    "url": "https://www.imdb.com/title/tt15801866/",
+    "comments": [
+      "- a really fun 3d platformer with fun movement and tech",
+      "- fun speedrun as well"
+    ],
+    "finished": "yes + dlcs (42h)"
+  },
+  {
+    "title": "Days Gone (2019)",
+    "date": "2021-05-22",
+    "rating": 6,
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1259420/header.jpg?t=1746207981",
+    "url": "https://www.imdb.com/title/tt6795336/",
+    "comments": [
+      "- story while nothing out of the ordinary surprisingly kept me engaged and had some really cool moments",
+      "- typical fun zombie horde shooter"
+    ],
+    "finished": "100% (70h)"
+  },
+  {
+    "title": "Pseudoregalia (2023)",
+    "date": "2023-08-01",
+    "rating": 6,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2365810/header.jpg?t=1736183956",
+    "url": "https://www.imdb.com/title/tt28913797/",
+    "comments": [
+      "- a very fun old school platformer game",
+      "- movement was fun although a little clunky when it comes to wallruns and -jumps, probably just a skill issue",
+      "- cool level design and a fun final boss fight"
+    ],
+    "finished": "yes (4.5h)"
+  },
+  {
+    "title": "Toree 3D (2021)",
+    "date": "2025-06-29",
+    "rating": 3,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1554840/header.jpg?t=1641746198",
+    "url": "https://www.imdb.com/title/tt19409432/",
+    "comments": [
+      "- a bite sized 3d platformer collectathon with a pleasant aesthetic and a banging soundtrack",
+      "- no movement mechanics outside of running and double jumping",
+      "- level design very linear and straightforward with the final level having some more spice to it",
+      "- the way the fans work is god awful and infuriating"
+    ],
+    "finished": "yes (30min)"
+  },
+  {
+    "title": "Toree 2 (2021)",
+    "date": "2025-06-29",
+    "rating": 3,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1722620/header.jpg?t=1633021233",
+    "url": "https://www.imdb.com/title/tt22502186/",
+    "comments": [
+      "- unfortunately no movement changes from the first game",
+      "- level design was infinitely better, soundtrack still banging and most importantly, no fans",
+      "- final level including a boss battle was surprising"
+    ],
+    "finished": "yes (20min)"
+  },
+  {
+    "title": "Macbat 64 (2017)",
+    "date": "2025-06-29",
+    "rating": 3,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/568040/header.jpg?t=1616063290",
+    "url": "https://www.imdb.com/title/tt6774708/",
+    "comments": [
+      "- an older bite sized 3d puzzle platformer collectathon by the creator of toree",
+      "- surprisingly quite a bit of variety in the levels",
+      "- the camera sensitivty was awful and there were no settings to change it. especially the karting level suffered because of this",
+      "- even had some cutscenes and very little voice acting"
+    ],
+    "finished": "yes (40min)"
+  },
+  {
+    "title": "Super Kiwi 64 (2022)",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1949960/header.jpg?t=1669996918",
+    "date": "2025-06-29",
+    "rating": 4,
+    "url": "",
+    "comments": [
+      "- yet another bite sized 3d platformer collectathon by the creator of toree",
+      "- very fun movement, the dash and being able to stick to walls was nice",
+      "- level design had a lot of variety to it, but even then the levels were nothing exciting and very small",
+      "- final boss battle was a bit of a letdown and way too forgiving"
+    ],
+    "finished": "yes (1.4h)"
+  },
+  {
+    "title": "Corn Kidz 64 (2023)",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2575900/header.jpg?t=1706750844",
+    "date": "ongoing",
+    "rating": null,
+    "url": "https://www.imdb.com/title/tt30802204/",
+    "comments": ["- really sick so far"],
+    "finished": "ongoing"
+  }
 ]
